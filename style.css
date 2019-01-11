@@ -1,0 +1,163 @@
+*{text-decoration: none
+}
+body {
+    background-color: white
+}
+
+header {
+    background-color:#fff;  
+    width:100%;
+    height:100px;
+}
+
+header .header-brand {
+    font-family: 'Playfair';
+    font-size: 24px;
+    color: #111;
+    font-weight: 900;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+header nav ul {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+header nav ul li {
+    float: left;
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+    }
+header nav ul li a {
+    font-family: 'Playfair';
+    font-size: 16px;
+    color: #111;
+    
+}
+@media only screen and (min-width: 1000px){
+
+}
+/*section1 page*/
+
+.index-banner {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url('img/spiderplant.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+.index-banner h2 {
+    font-family: 'Playfair';
+    font-size: 60px;
+    color: rgb(184, 121, 63);
+    text-align: center;
+    font-weight: 900;
+    line-height: 70px;
+}
+
+.vertical-center {
+    display: table-cell;
+    vertical-align: middle;
+
+
+}
+
+.index-banner h1 {
+    font-family: 'Playfair';
+    font-size: 28px;
+    color: rgb(184, 121, 63);
+    text-align: center;
+    font-style: italic;
+    line-height: 40px;
+    font-weight: 100;
+    text-shadow: 2px 2px 8px rgb(124, 124, 124)
+}
+
+/*section2 page*/
+
+.index-worklink {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url('img/packagingdesign.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+.index-worklink h3 {
+    font-family: 'Playfair';
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    line-height: 70px;
+}
+/*section3 page*/
+
+.index-aboutlink {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url('img/zarportrait.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+.index-aboutlink h3 {
+    font-family: 'Playfair';
+    font-size: 60px;
+    color: rgb(184, 121, 63);
+    text-align: center;
+    font-weight: 900;
+    line-height: 70px;
+}
+
+/*section4 page*/
+
+.index-contactlink div {
+    margin: 16px 16px 0;
+    width: calc(100% - 32 px);
+    height: 100 px;
+    background-color: #f2f2f2; 
+}
+
+.index-contactlink div h3 {
+    font-family: 'Playfair';
+    font-size: 30px;
+    color: rgb(184, 121, 63);
+    text-align: center;
+    font-weight: 900;
+    line-height: 70px;
+}
+/*footer*/
+
+footer {
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    margin-top: 20px;
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+
+.footer-sm img {
+    width: 10px;
+    float: right;
+
+}
+
+.footer-sm {
+    width: 100%;
+    margin-bottom:10px
+}
